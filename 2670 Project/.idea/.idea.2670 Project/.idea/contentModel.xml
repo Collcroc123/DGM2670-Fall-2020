@@ -9,6 +9,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="AddScore.cs" t="Include" />
+          <e p="CharacterMover.cs" t="Include" />
           <e p="DataCode" t="Include">
             <e p="IntData.cs" t="Include" />
           </e>
