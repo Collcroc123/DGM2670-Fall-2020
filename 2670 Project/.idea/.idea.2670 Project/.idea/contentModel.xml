@@ -14,6 +14,7 @@
             <e p="IntData.cs" t="Include" />
           </e>
           <e p="IfStatements.cs" t="Include" />
+          <e p="PlayerRoller.cs" t="Include" />
           <e p="Score.cs" t="Include" />
         </e>
       </e>
