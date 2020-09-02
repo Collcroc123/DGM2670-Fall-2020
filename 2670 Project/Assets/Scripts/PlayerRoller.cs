@@ -1,13 +1,13 @@
-﻿using System.Collections;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerRoller : MonoBehaviour
 {
     private Rigidbody ball;
     private Vector3 movement;
     private float currentSpeed = 3f;
-    private float gravity = 1f;
-    private float jumpForce = 50f;
+    private float maxSpeed = 30f;
+    private float gravity = 0f;
+    private float jumpForce = 5f;
     private bool grounded;
     
     void Start()
@@ -19,37 +19,25 @@ public class PlayerRoller : MonoBehaviour
     {
         movement.x = Input.GetAxis("Vertical")*currentSpeed;
         movement.z = Input.GetAxis("Horizontal")* -currentSpeed;
-        ball.AddForce(movement);
         
+        if (gravity > -1f)
+        {
+            gravity += -0.01f;
+            //gravity = -1f;
+        }
+
         if (Input.GetButtonDown("Jump"))
         {
-            //Jump();
+            gravity = 0f;
+            gravity = jumpForce;
+        }
+        movement.y = gravity;
+        ball.AddForce(movement);
+        //Debug.Log(gravity);
+        if (ball.velocity.magnitude > 40f)
+        {
+            ball.velocity = ball.velocity.normalized * maxSpeed;
+            //Debug.Log("Too Fast!!!");
         }
     }
-    
-    IEnumerator Jump()
-    {
-        movement.y = jumpForce;
-        yield return new WaitForSeconds(1f);
-        movement.y = 0f;
-    }
-    
-    /*
-    private void OnCollisionEnter(Collision other)
-    {
-        Debug.Log("Bababooey");
-        if(other.collider.CompareTag("Ground"))
-        {
-            movement.y = 0;
-            if (Input.GetButtonDown("Jump"))
-            {
-                movement.y = jumpForce;
-            }
-        }
-        else
-        {
-            movement.y -= gravity;
-        }
-    }*/
 }
-

@@ -5,16 +5,12 @@ public class CharacterMover : MonoBehaviour
 {
     private CharacterController controller;
     private Vector3 movement;
-    private Vector3 rotateMovement;
-    private float gravity = 0.5f;
-    private float currentSpeed = 5f;
-    public float rotateSpeed = 5f;
-    public float moveSpeed = 5f;
-    public float sprintSpeed = 7.5f;
-    public float jumpForce = 5f;
-    //public int maxJumps = 1;
-    //public int jumpCount;
-
+    
+    private float moveSpeed = 7.5f, rotateSpeed = 180f, gravity = -9.81f, jumpForce = 5f;
+    private float yVar;
+    
+    private int JumpCountMax = 2, jumpCount;
+    
     private void Start()
     {
         controller = GetComponent<CharacterController>();
@@ -22,34 +18,27 @@ public class CharacterMover : MonoBehaviour
 
     private void Update()
     {
-        rotateMovement.y = Input.GetAxis("Mouse X")*rotateSpeed;
-        transform.Rotate(rotateMovement);
-        movement.x = Input.GetAxis("Vertical")*currentSpeed;
-        movement.z = Input.GetAxis("Horizontal")* -currentSpeed;
+        var vInput = Input.GetAxis("Vertical") * moveSpeed;
+        movement.Set(vInput, yVar, 0);
 
-        if (Input.GetKeyDown(KeyCode.LeftShift))
-        {
-            currentSpeed = sprintSpeed;
-        }
-        else
-        {
-            currentSpeed = moveSpeed;
-        }
+        var hInput = Input.GetAxis("Horizontal") * Time.deltaTime*rotateSpeed;
+        transform.Rotate(0,hInput,0);
 
-        if (controller.isGrounded)
+        yVar += gravity * Time.deltaTime;
+
+        if (controller.isGrounded && movement.y < 0)
         {
-            movement.y = 0;
-            if (Input.GetButtonDown("Jump"))
-            {
-                movement.y = jumpForce;
-                Debug.Log("JUMPED!");
-            }
-        }
-        else
-        {
-            movement.y -= gravity;
+            jumpCount = 0;
+            yVar = -1f;
         }
         
+        if (Input.GetButtonDown("Jump") && jumpCount < JumpCountMax)
+        {
+            yVar += jumpForce;
+            jumpCount++;
+        }
+
+        movement = transform.TransformDirection(movement);
         controller.Move(movement*Time.deltaTime);
     }
 }
