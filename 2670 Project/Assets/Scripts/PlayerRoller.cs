@@ -9,6 +9,7 @@ public class PlayerRoller : MonoBehaviour
     private float gravity = 0f;
     private float jumpForce = 5f;
     private bool grounded;
+    public bool speedLimit = true;
     
     void Start()
     {
@@ -29,15 +30,18 @@ public class PlayerRoller : MonoBehaviour
         if (Input.GetButtonDown("Jump"))
         {
             gravity = 0f;
-            gravity = jumpForce;
+            gravity += jumpForce;
         }
         movement.y = gravity;
         ball.AddForce(movement);
         //Debug.Log(gravity);
         if (ball.velocity.magnitude > 40f)
         {
-            ball.velocity = ball.velocity.normalized * maxSpeed;
-            //Debug.Log("Too Fast!!!");
+            if (speedLimit)
+            {
+                ball.velocity = ball.velocity.normalized * maxSpeed;
+                //Debug.Log("Too Fast!!!");
+            }
         }
     }
 }
