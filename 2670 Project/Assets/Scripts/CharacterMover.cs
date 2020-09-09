@@ -4,12 +4,12 @@
 public class CharacterMover : MonoBehaviour
 {
     private CharacterController controller;
+    public FloatData moveSpeed, normalSpeed, fastSpeed;
     private Vector3 movement;
-    
-    private float moveSpeed = 7.5f, rotateSpeed = 180f, gravity = -9.81f, jumpForce = 5f;
-    private float yVar;
-    
-    private int JumpCountMax = 2, jumpCount;
+    private float yVar, rotateSpeed = 180f, gravity = -9.81f, jumpForce = 5f;
+    public IntData maxJump;
+    private int jumpCount;
+    public Vector3Data currentSpawn;
     
     private void Start()
     {
@@ -18,7 +18,17 @@ public class CharacterMover : MonoBehaviour
 
     private void Update()
     {
-        var vInput = Input.GetAxis("Vertical") * moveSpeed;
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            moveSpeed = fastSpeed;
+        }
+        
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            moveSpeed = normalSpeed;
+        }
+        
+        var vInput = Input.GetAxis("Vertical") * moveSpeed.value;
         movement.Set(vInput, yVar, 0);
 
         var hInput = Input.GetAxis("Horizontal") * Time.deltaTime*rotateSpeed;
@@ -32,9 +42,9 @@ public class CharacterMover : MonoBehaviour
             yVar = -1f;
         }
         
-        if (Input.GetButtonDown("Jump") && jumpCount < JumpCountMax)
+        if (Input.GetButtonDown("Jump") && jumpCount < maxJump.value)
         {
-            yVar += jumpForce;
+            yVar = jumpForce;
             jumpCount++;
         }
 
