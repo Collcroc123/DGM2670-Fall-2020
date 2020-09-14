@@ -6,11 +6,9 @@ using UnityEngine;
 public class SpawnPoint : MonoBehaviour
 {
     public Vector3Data vData;
-    public CharacterController charControl;
     
-    //Set the vData from the position value
-    private void Update()
+    private void OnTriggerEnter(Collider other)
     {
-        //vData = charControl.position;
+        vData.SetValue(transform.position);
     }
 }
