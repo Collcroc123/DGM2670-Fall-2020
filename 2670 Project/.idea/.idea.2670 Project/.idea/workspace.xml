@@ -22,11 +22,8 @@
     <list default="true" id="09e5d986-49b2-426b-9cec-a36e3c8ef65e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2670 Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2670 Project/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2670 Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2670 Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Spawn Point.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Spawn Point.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataCode/Vector3Data.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DataCode/Vector3Data.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpawnPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SpawnPoint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Instancer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Instancer.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +40,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataCode/Vector3Data.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/JumpPowerUp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveLocator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LookAt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ApplyForce.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyHealth.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -55,13 +54,16 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerRoller.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DataCode/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/JumpPowerUp.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Instancer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ApplyForce.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpawnPoint.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DataCode/Vector3Data.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Lerping.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Instancer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LookAt.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MoveLocator.cs" />
       </list>
     </option>
   </component>
@@ -114,7 +116,8 @@
       <workItem from="1599198358820" duration="391000" />
       <workItem from="1599679196145" duration="3394000" />
       <workItem from="1599971758145" duration="418000" />
-      <workItem from="1600111844975" duration="3065000" />
+      <workItem from="1600111844975" duration="3664000" />
+      <workItem from="1600283918782" duration="3582000" />
     </task>
     <servers />
   </component>
@@ -143,5 +146,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599681659253" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600285242032">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600285242032" />
   </component>
 </project>

@@ -5,11 +5,6 @@ public class Instancer : MonoBehaviour
 {
     public GameObject prefab;
 
-    void Start()
-    {
-        
-    }
-
     private void Update()
     {
         if (Input.GetButtonDown("Fire1"))
