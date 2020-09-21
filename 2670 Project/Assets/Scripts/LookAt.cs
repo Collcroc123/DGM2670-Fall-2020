@@ -7,11 +7,6 @@ public class LookAt : MonoBehaviour
 {
     public Transform lookObj;
 
-    private void Start()
-    {
-        //Transform = private new Transform trans;
-    }
-
     private void Update()
     {
         transform.LookAt(lookObj);

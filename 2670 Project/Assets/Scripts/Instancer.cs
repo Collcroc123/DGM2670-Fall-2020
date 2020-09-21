@@ -4,14 +4,11 @@ using UnityEngine;
 public class Instancer : MonoBehaviour
 {
     public GameObject prefab;
+    public Vector3Data rotationDirection;
 
-    private void Update()
+    private void Instance()
     {
-        if (Input.GetButtonDown("Fire1"))
-        {
-            var location = transform.position;
-            var rotation = new Vector3(0,0,0);
-            Instantiate(prefab, location, Quaternion.Euler(rotation));
-        }
+        var location = transform.position;
+        Instantiate(prefab, location, Quaternion.Euler(rotationDirection.value));
     }
 }
