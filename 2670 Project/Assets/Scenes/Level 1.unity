@@ -361,8 +361,8 @@ GameObject:
   - component: {fileID: 457994670}
   - component: {fileID: 457994669}
   - component: {fileID: 457994668}
-  - component: {fileID: 457994672}
   - component: {fileID: 457994673}
+  - component: {fileID: 457994674}
   m_Layer: 0
   m_Name: Floor
   m_TagString: Ground
@@ -447,19 +447,6 @@ Transform:
   m_Father: {fileID: 121982273}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &457994672
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 457994667}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76c33102b66b9194eb521aa7e24e6540, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pointObj: {fileID: 1074189968}
 --- !u!114 &457994673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -474,13 +461,74 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseDownEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 3e51dc23f4e5bea47b2284cc6ff2edcb, type: 2}
+        m_TargetAssemblyTypeName: Vector3Data, Assembly-CSharp
+        m_MethodName: SetFromMousePosition
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 963194227}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Camera, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 508832959}
+        m_TargetAssemblyTypeName: LookAt, Assembly-CSharp
+        m_MethodName: OnLook
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 3e51dc23f4e5bea47b2284cc6ff2edcb, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Vector3Data, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 33526dc91f265d044a8f5b7e643d126f, type: 2}
+        m_TargetAssemblyTypeName: Vector3Data, Assembly-CSharp
+        m_MethodName: SetValueRotation
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 508832958}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1233052960}
+        m_TargetAssemblyTypeName: Vector3Data, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   mouseUpEvent:
     m_PersistentCalls:
       m_Calls: []
   mouseDragEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &457994674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457994667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f81cd59898efabb4b9c9b9735cc2f2da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  locationData: {fileID: 11400000, guid: 3e51dc23f4e5bea47b2284cc6ff2edcb, type: 2}
 --- !u!1 &508832957
 GameObject:
   m_ObjectHideFlags: 0
@@ -492,7 +540,7 @@ GameObject:
   - component: {fileID: 508832958}
   - component: {fileID: 508832959}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: LookAt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -525,7 +573,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e5d4bf84c37d16429607b6080cf9639, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lookObj: {fileID: 1074189968}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -771,7 +818,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.14678936, y: 0.6917029, z: -0.14678936, w: 0.6917029}
+  m_LocalRotation: {x: 0.14678934, y: 0.6917029, z: -0.14678934, w: 0.6917029}
   m_LocalPosition: {x: 1.5, y: 3.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -987,7 +1034,7 @@ GameObject:
   - component: {fileID: 1233052962}
   - component: {fileID: 1233052966}
   m_Layer: 0
-  m_Name: LookAt
+  m_Name: Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1142,7 +1189,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1385332568}
-  m_LocalRotation: {x: 0.14678936, y: 0.6917029, z: -0.14678936, w: 0.6917029}
+  m_LocalRotation: {x: 0.14678934, y: 0.6917029, z: -0.14678934, w: 0.6917029}
   m_LocalPosition: {x: 1.5, y: 3.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:

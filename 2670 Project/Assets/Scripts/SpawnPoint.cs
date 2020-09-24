@@ -9,6 +9,6 @@ public class SpawnPoint : MonoBehaviour
     
     private void OnTriggerEnter(Collider other)
     {
-        vData.SetValueTransform(transform.position);
+        vData.SetValueVector3(transform.position);
     }
 }

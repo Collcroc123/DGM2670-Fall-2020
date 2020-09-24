@@ -20,57 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09e5d986-49b2-426b-9cec-a36e3c8ef65e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Datas.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/VectData/AimVector.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/VectData/AimVector.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Events.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Events/MouseEventsBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SelfDestruct.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SelfDestruct.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.2670 Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2670 Project/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.2670 Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2670 Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataCode.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/DataCode.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataCode/FloatData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/DataCode/FloatData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataCode/FloatData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/DataCode/FloatData.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataCode/IntData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/DataCode/IntData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataCode/IntData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/DataCode/IntData.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataCode/Vector3Data.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/DataCode/Vector3Data.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataCode/Vector3Data.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/DataCode/Vector3Data.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FloatData.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/FloatData.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FloatData/FastSpeed.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/FloatData/FastSpeed.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FloatData/FastSpeed.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/FloatData/FastSpeed.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FloatData/NormalSpeed.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/FloatData/NormalSpeed.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FloatData/NormalSpeed.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/FloatData/NormalSpeed.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Datas/DataCode/Vector3Data.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/DataCode/Vector3Data.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Instancer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Instancer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IntData.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/IntData.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IntData/Ammo.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/IntData/Ammo.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IntData/Ammo.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/IntData/Ammo.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IntData/Health.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/IntData/Health.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IntData/Health.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/IntData/Health.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IntData/HighScore.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/IntData/HighScore.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IntData/HighScore.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/IntData/HighScore.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IntData/Lives.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/IntData/Lives.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IntData/Lives.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/IntData/Lives.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IntData/Money.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/IntData/Money.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IntData/Money.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/IntData/Money.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IntData/Score.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/IntData/Score.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IntData/Score.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/IntData/Score.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IntData/jumpCount.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/IntData/jumpCount.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IntData/jumpCount.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/IntData/jumpCount.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IntData/maxJump.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/IntData/maxJump.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IntData/maxJump.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/IntData/maxJump.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IntData/singleJump.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/IntData/singleJump.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IntData/singleJump.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/IntData/singleJump.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Lerping.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Lerping.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Events/MouseEventsBehaviour.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LookAt.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LookAt.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MoveLocator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MoveLocator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MoveLocator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MoveLocator.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpawnPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SpawnPoint.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VectData.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/VectData.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VectData/SpawnPoint.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/VectData/SpawnPoint.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VectData/SpawnPoint.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/VectData/SpawnPoint.asset.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,13 +38,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Score.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/JumpPowerUp.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AddScore.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LookAt.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveLocator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/JumpPowerUp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MouseLocation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ApplyForce.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Events/MouseEvents.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -110,10 +64,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MouseDownBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MouseEventsBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LookAtBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LookAt.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Events/MouseEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Events/Debugger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveLocator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Datas/DataCode/Vector3Data.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MouseLocation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpawnPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LookAt.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Datas/DataCode/Vector3Data.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Instancer.cs" />
       </list>
     </option>
@@ -170,6 +127,7 @@
       <workItem from="1600111844975" duration="3664000" />
       <workItem from="1600283918782" duration="3582000" />
       <workItem from="1600716521408" duration="2973000" />
+      <workItem from="1600888134177" duration="4429000" />
     </task>
     <servers />
   </component>
