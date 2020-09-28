@@ -20,6 +20,7 @@
           </e>
           <e p="Events" t="Include">
             <e p="MouseEvents.cs" t="Include" />
+            <e p="TriggerEvents.cs" t="Include" />
           </e>
           <e p="IfStatements.cs" t="Include" />
           <e p="Instancer.cs" t="Include" />
