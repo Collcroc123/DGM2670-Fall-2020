@@ -19,6 +19,8 @@
             </e>
           </e>
           <e p="Events" t="Include">
+            <e p="DelayEvent.cs" t="Include" />
+            <e p="MonoEvents.cs" t="Include" />
             <e p="MouseEvents.cs" t="Include" />
             <e p="TriggerEvents.cs" t="Include" />
           </e>
