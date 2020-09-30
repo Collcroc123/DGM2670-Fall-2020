@@ -23,7 +23,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2670 Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2670 Project/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2670 Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2670 Project/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Datas/DataCode/Vector3Data.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/DataCode/Vector3Data.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +75,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Events/DelayEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Events/MonoEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Datas/DataCode/Vector3Data.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterKnockBack.cs" />
       </list>
     </option>
   </component>
@@ -132,6 +133,7 @@
       <workItem from="1600716521408" duration="2973000" />
       <workItem from="1600888134177" duration="4429000" />
       <workItem from="1601321013105" duration="3003000" />
+      <workItem from="1601494650874" duration="2405000" />
     </task>
     <servers />
   </component>
