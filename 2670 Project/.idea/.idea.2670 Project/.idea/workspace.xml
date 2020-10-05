@@ -23,7 +23,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2670 Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2670 Project/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2670 Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2670 Project/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/JumpPowerUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ApplyForce.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DataCode/Vector3Data.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Lerping.cs" />
@@ -76,6 +75,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Events/MonoEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Datas/DataCode/Vector3Data.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterKnockBack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/KnockBack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
       </list>
     </option>
   </component>
@@ -134,6 +135,7 @@
       <workItem from="1600888134177" duration="4429000" />
       <workItem from="1601321013105" duration="3003000" />
       <workItem from="1601494650874" duration="2405000" />
+      <workItem from="1601926494985" duration="2361000" />
     </task>
     <servers />
   </component>

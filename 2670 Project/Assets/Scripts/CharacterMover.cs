@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
 public class CharacterMover : MonoBehaviour
@@ -40,8 +41,8 @@ public class CharacterMover : MonoBehaviour
 
         if (controller.isGrounded && movement.y < 0)
         {
-            jumpCount = 0;
             yVar = -1f;
+            jumpCount = 0;
         }
         
         if (Input.GetButtonDown("Jump") && jumpCount < maxJump.value)
@@ -52,6 +53,23 @@ public class CharacterMover : MonoBehaviour
 
         movement = transform.TransformDirection(movement);
         controller.Move(movement*Time.deltaTime);
+    }
+    
+    private Vector3 direction = Vector3.zero;
+    public float pushPower = 3f;
+
+    private void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        var body = hit.collider.attachedRigidbody;
+
+        if (body == null)
+        {
+            return;
+        }
+        
+        direction.Set(hit.moveDirection.x, 0, hit.moveDirection.z);
+        var pushDirection = direction * pushPower;
+        body.velocity = pushDirection;
     }
 
     private void OnEnable()
