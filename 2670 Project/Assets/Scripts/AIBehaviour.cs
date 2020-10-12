@@ -31,6 +31,12 @@ public class AIBehaviour : MonoBehaviour
         }
     }
 
+    private IEnumerator Patrol()
+    {
+        canNavigate = false;
+        yield return wfs;
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         canNavigate = false;
@@ -40,5 +46,6 @@ public class AIBehaviour : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         canNavigate = false;
+        StartCoroutine(Patrol());
     }
 }

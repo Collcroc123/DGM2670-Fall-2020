@@ -33,6 +33,7 @@
           <e p="KnockBack.cs" t="Include" />
           <e p="LookAt.cs" t="Include" />
           <e p="MouseLocation.cs" t="Include" />
+          <e p="Patrolling.cs" t="Include" />
           <e p="PlayerRoller.cs" t="Include" />
           <e p="Score.cs" t="Include" />
           <e p="SelfDestruct.cs" t="Include" />
