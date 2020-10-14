@@ -6,11 +6,15 @@ using UnityEngine;
 public class KnockBack : MonoBehaviour
 {
     private CharacterController controller;
-
     private Vector3 move = Vector3.left;
-    void Update()
+
+    private void Start()
     {
         controller = GetComponent<CharacterController>();
+    }
+
+    void Update()
+    {
         controller.Move(move * Time.deltaTime);
     }
 
@@ -27,6 +31,7 @@ public class KnockBack : MonoBehaviour
     }
 
     public float pushPower = 10.0f;
+    private CharacterController characterController;
 
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {

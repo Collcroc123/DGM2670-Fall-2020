@@ -624,7 +624,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &523629368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -910,7 +910,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1519599629}
   canNavigate: 1
+  canPatrol: 1
   holdTime: 1
+  patrolPoints:
+  - {fileID: 657303141}
+  - {fileID: 1781439573}
+  - {fileID: 274954044}
 --- !u!195 &739359024
 NavMeshAgent:
   m_ObjectHideFlags: 0
