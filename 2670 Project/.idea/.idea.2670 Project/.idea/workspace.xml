@@ -20,10 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09e5d986-49b2-426b-9cec-a36e3c8ef65e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.2670 Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2670 Project/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2670 Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2670 Project/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AIBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AIBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KnockBack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KnockBack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Datas/DataCode/FloatData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/DataCode/FloatData.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/LookAtBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Events/Debugger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveLocator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Datas/DataCode/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Events/TriggerEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpawnPoint.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MouseLocation.cs" />
@@ -82,6 +81,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Patrolling.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AIBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/KnockBack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Datas/StringListData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Datas/DataCode/StringListData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Datas/DataCode/FloatData.cs" />
       </list>
     </option>
   </component>
@@ -145,6 +147,7 @@
       <workItem from="1602097884078" duration="3882000" />
       <workItem from="1602529659054" duration="2783000" />
       <workItem from="1602702464981" duration="1733000" />
+      <workItem from="1603135014683" duration="3675000" />
     </task>
     <servers />
   </component>
@@ -169,10 +172,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="461" y="165" key="SettingsEditor" timestamp="1602100748945">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1603135867133">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602100748945" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603135867133" />
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1602706033693">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
