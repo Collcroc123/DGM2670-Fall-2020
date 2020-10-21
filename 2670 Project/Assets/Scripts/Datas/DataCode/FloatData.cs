@@ -15,9 +15,9 @@ public class FloatData : ScriptableObject
     {
         value += number;
     }
-
+    /*
     public void SetImageFillAmount(Image img)
     {
         img.fillAmount = value;
-    }
+    }*/
 }
