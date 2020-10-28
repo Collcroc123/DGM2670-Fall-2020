@@ -22,9 +22,7 @@
     <list default="true" id="09e5d986-49b2-426b-9cec-a36e3c8ef65e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2670 Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2670 Project/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2670 Project/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2670 Project/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.2670 Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2670 Project/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +89,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/States.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Datas/DataCode/StateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AttachObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameAction.cs" />
       </list>
     </option>
   </component>
@@ -157,6 +156,7 @@
       <workItem from="1603135014683" duration="3675000" />
       <workItem from="1603307434662" duration="2835000" />
       <workItem from="1603738629865" duration="2073000" />
+      <workItem from="1603913764141" duration="669000" />
     </task>
     <servers />
   </component>
@@ -193,9 +193,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602532841938" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600285242032">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603913791912">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600285242032" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603913791912" />
   </component>
 </project>
