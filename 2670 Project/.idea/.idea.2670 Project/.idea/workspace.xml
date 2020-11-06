@@ -20,9 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09e5d986-49b2-426b-9cec-a36e3c8ef65e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.2670 Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2670 Project/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2670 Project/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2670 Project/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.2670 Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2670 Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlatformController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlatformController.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/States.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/States.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,10 +87,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Datas/StringListData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Datas/DataCode/StringListData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Datas/DataCode/FloatData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/States.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Datas/DataCode/StateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AttachObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/States1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/States.cs" />
       </list>
     </option>
   </component>
@@ -157,6 +159,7 @@
       <workItem from="1603307434662" duration="2835000" />
       <workItem from="1603738629865" duration="2073000" />
       <workItem from="1603913764141" duration="669000" />
+      <workItem from="1604521117522" duration="2085000" />
     </task>
     <servers />
   </component>
