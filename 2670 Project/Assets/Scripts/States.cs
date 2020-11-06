@@ -21,7 +21,7 @@ public class States : MonoBehaviour
                 print("Walk");
                 break;
             case StateMachine.States.Sprint:
-                print("Run");
+                print("Sprint");
                 break;
             case StateMachine.States.Idle:
                 print("Idle");
