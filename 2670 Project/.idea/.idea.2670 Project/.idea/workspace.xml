@@ -21,7 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="09e5d986-49b2-426b-9cec-a36e3c8ef65e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2670 Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2670 Project/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameAction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.2670 Project/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2670 Project/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.2670 Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2670 Project/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +91,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/States1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/States.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InstanceBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -160,6 +162,7 @@
       <workItem from="1604521117522" duration="2085000" />
       <workItem from="1604691969514" duration="604000" />
       <workItem from="1604954227281" duration="671000" />
+      <workItem from="1605126201450" duration="1433000" />
     </task>
     <servers />
   </component>

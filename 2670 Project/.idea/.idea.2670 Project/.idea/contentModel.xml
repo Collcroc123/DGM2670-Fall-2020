@@ -31,8 +31,8 @@
             <e p="TriggerEvents.cs" t="Include" />
           </e>
           <e p="GameAction.cs" t="Include" />
-          <e p="GameAction1.cs" t="Include" />
           <e p="IfStatements.cs" t="Include" />
+          <e p="InstanceBehaviour.cs" t="Include" />
           <e p="Instancer.cs" t="Include" />
           <e p="JumpPowerUp.cs" t="Include" />
           <e p="KnockBack.cs" t="Include" />
